@@ -1,0 +1,17 @@
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/FinSightApplication.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/config/SecurityConfig.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/config/WebConfig.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/controller/BudgetController.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/controller/ReportController.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/controller/TransactionController.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/model/Budget.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/model/Goal.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/model/Transaction.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/model/User.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/repository/BudgetRepository.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/repository/GoalRepository.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/repository/TransactionRepository.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/repository/UserRepository.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/service/ExpensePatternService.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/service/JasperReportService.java
+/Users/surupradeep/Documents/FinSight/backend/src/main/java/com/finsight/service/ReportService.java
