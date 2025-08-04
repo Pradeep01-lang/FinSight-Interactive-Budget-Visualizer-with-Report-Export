@@ -1,70 +1,70 @@
-# FinSight – Interactive Budget Visualizer with Report Export
+# Getting Started with Create React App
 
-FinSight is a full-stack personal finance management web app that allows users to manually track expenses, manage monthly budgets, visualize spending trends using interactive charts, and export detailed financial summaries. Designed for privacy-conscious users who prefer not to link bank accounts, FinSight offers a clean, responsive UI and powerful data visualization to support smart financial habits.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-- Interactive bar charts to analyze spending patterns
-- Manual transaction and budget input system
-- Export monthly reports as CSV (PDF export planned)
-- Budget goal creation and progress tracking
-- Alerts for goal milestones and overspending (coming soon)
-- Pattern detection for recurring expenses (coming soon)
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Tech Stack
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-| Layer        | Technology                               |
-|--------------|-------------------------------------------|
-| **Frontend** | React.js, Tailwind CSS, Chart.js          |
-| **Backend**  | Java 21, Spring Boot (REST APIs)          |
-| **Database** | MySQL, Spring Data JPA                    |
-| **Reports**  | CSV Export (JasperReports/iText for PDF - WIP) |
-| **State**    | React Context API                         |
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Implementation Highlights
+### `npm run build`
 
-### Full-Stack Architecture
-- Layered backend architecture (Controller → Service → Repository) for modularity and scalability.
-- Integrated MySQL with Spring Boot using Spring Data JPA.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Frontend (React + Tailwind CSS)
-- Responsive and mobile-friendly UI built with Tailwind.
-- Real-time visualizations powered by Chart.js.
-- State management using React Context API.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Backend (Java 21 + Spring Boot)
-- RESTful APIs for transactions, budgets, and summaries.
-- Input validation, error handling, and clean DTO structures.
-- Designed with future scalability and microservice adaptation in mind.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Charts and Reports
-- Dynamic charts update as users modify their data.
-- CSV export implemented for sharing/spreadsheet analysis.
-- Planned: PDF generation with JasperReports or iText for formal monthly reports.
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Screenshots (Coming Soon)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-> Will include UI snapshots and chart previews here.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Getting Started
+## Learn More
 
-### Prerequisites
-- Node.js (v18+)
-- MySQL (v8+)
-- Java 21
-- Maven (for backend)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/FinSight.git
-cd FinSight
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
